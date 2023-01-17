@@ -38,6 +38,6 @@ st.title('Text Summarization')
 text = st.text_area('Enter a text to summarize:')
 
 if st.button("Summarize"):
-        summary = summarize(text)
+        summary = summarize(document)
         st.success("text summarized.")
         st.write("Summary:")
