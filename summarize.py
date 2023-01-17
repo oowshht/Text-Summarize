@@ -35,7 +35,7 @@ def summarize(document):
 
 st.title('Text Summarization')
 
-text = st.text_area('Enter a text to summarize:')
+document = st.text_area('Enter a text to summarize:')
 
 if st.button("Summarize"):
         summary = summarize(document)
