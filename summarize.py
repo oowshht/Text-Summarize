@@ -41,3 +41,4 @@ if st.button("Summarize"):
         summary = summarize(document)
         st.success("text summarized.")
         st.write("Summary:")
+        st.write(summary)
